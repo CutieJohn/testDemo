@@ -1,8 +1,8 @@
 # testDemo
 
 
---------------------------------- How to run -----------------------------
 How to run this demo app:
+
     Method #1:
         Add this project as a Maven project. After this system solves all dependencies, locate to DemoApplication and run DemoApplication.class
     Method #2:
@@ -10,24 +10,28 @@ How to run this demo app:
         b. Open terminal window at this path, and type "java -jar demo.jar" then press Enter in terminal window
         
 Use APIs via Swagger:
+
     a. Before you run this app, make sure that port 8080 is not in use;
     b. After start up the app, go to http://localhost:8080/swagger-ui.html to open the Swagger index;
     c. Start using the APIs;
     d. You can use the mock data listed below.
     
 Run test units:
+
     a. Start up the app via method #1 or #2;
     b. Locate to class /test/java/com.john.demo/DemoTest.class
     c. Run the 2 test cases.
     
 
 Backend:
+
     Technology stack:
         JDK 1.8
         SpringBoot
         RESTful API
         Swagger Documentation
         Unit Testing using JUnit
+        
     Mock data:
         Accounts:
             #1:{
@@ -48,6 +52,7 @@ Backend:
                   }
                  
 Error code and message:
+
     System:
         0, success
     Card:
@@ -58,6 +63,7 @@ Error code and message:
         2001, Balance is not enough
         
 Return data map:
+
     a. Status codes:
         200: ok
         100: error
@@ -82,6 +88,7 @@ Return data map:
         }
         
 3rd Party Libraries:
+
     a. junit : for unit test
     b. alibaba.fastjson : for json object parse
     c. swagger: for swagger
