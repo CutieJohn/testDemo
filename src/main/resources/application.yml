@@ -1,0 +1,19 @@
+
+spring:
+
+  messages:
+    encoding: UTF-8
+
+  servlet:
+    multipart:
+      max-file-size: 102400000
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root:  info
+    org.springframework:  info
+    org.mybatis:  info
+    com.wokissni.wxhh.wxhh-db: info
